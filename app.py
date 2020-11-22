@@ -5,7 +5,7 @@ app = Flask(__name__)
 redis = Redis(host='redis', port=6379)
 
 @app.route('/')
-def hello():
+def index():
     count = redis.incr('hits')
     return 'User Address : '+request.remote_addr+'.\n Hits : '+format(count)
 
