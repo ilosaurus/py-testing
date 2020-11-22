@@ -10,6 +10,9 @@ git clone https://github.com/ilosaurus/py-testing.git
 cd py-testing
 
 sudo docker-compose up -d
+
+## Testing ##
+for i in {1..5}; do curl localhost:80 ; echo "" ;sleep 1; done
 ```
 example output : 
 ```
