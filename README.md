@@ -32,4 +32,6 @@ User Address : 172.17.0.1.
 2\. How to Scale (using docker compose scale or replicas) :
 ```bash
 sudo docker-compose scale counter-hit=3
-```
+```  
+  
+  
